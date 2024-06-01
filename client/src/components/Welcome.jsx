@@ -35,13 +35,13 @@ const Welcome = () => {
 
   return (
     <div className="flex w-full justify-center items-center">
-   <div className="flex w-3/5 mf:flex-row flex-col items-center justify-center md:p-20 py-12 px-4">
-        <div className="flex flex-1 justify-start items-start flex-col mf:mr-10">
-          <h1 className="text-3xl sm:text-5xl text-white font-extrabold text-gradient py-1">
+   <div className="flex w-3/5 mf:flex-row flex-col items-center justify-center md:p-20 py-12 px-4 ">
+        <div className="flex flex-1 justify-center items-center flex-col mf:mr-10">
+          <h1 className="text-3xl text-center sm:text-5xl text-white font-extrabold py-1">
     Send Crypto <br /> across the world
 </h1>
-          <p className="text-left mt-5 text-white font-light md:w-9/12 w-11/12 text-base">
-            Explore the crypto world. Buy and sell cryptocurrencies easily on Krypto.
+          <p className="text-center mt-5 text-white font-light md:w-9/12 w-11/12 ">
+            Explore the crypto world. Buy and sell cryptocurrencies easily on CryptoNIV.
           </p>
           {!currentAccount && (
             <button
