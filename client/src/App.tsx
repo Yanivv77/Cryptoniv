@@ -1,8 +1,8 @@
 
 
 const App = () => (
-  <div className="min-h-screen background-red">
-    <h1 className="text-3xl bold underline">hello</h1>
+  <div className="App ">
+    <h1 className="text-3xl font-bold underline">Hello world!</h1>
     </div>
    
 );
