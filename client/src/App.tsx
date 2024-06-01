@@ -1,10 +1,14 @@
+import { Footer, Navbar, Welcome } from "./components/index";
 
 
 const App = () => (
-  <div className="App ">
-    <h1 className="text-3xl font-bold underline">Hello world!</h1>
+  <div className="min-h-screen">
+    <div className="gradient-bg-welcome">
+      <Navbar/>
+      <Welcome />
     </div>
-   
+    <Footer/>
+  </div>
 );
 
 export default App;
