@@ -1,4 +1,4 @@
-import { Footer, Navbar, Welcome } from "./components/index";
+import { Footer, Navbar, Services, Welcome } from "./components/index";
 
 
 const App = () => (
@@ -7,6 +7,7 @@ const App = () => (
       <Navbar/>
       <Welcome />
     </div>
+    <Services />
     <Footer/>
   </div>
 );
