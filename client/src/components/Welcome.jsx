@@ -114,8 +114,16 @@ const Welcome = () => {
                   Send now
                 </button>
               )}
+             
           </div>
+          
+          <a className="mt-4" href="https://github.com/Yanivv77/Cryptoniv/blob/main/README.md" target="_blank" rel="noopener noreferrer">
+  <button className="bg-blue-800 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+  instructions
+  </button>
+</a>
         </div>
+        
       </div>
     </div>
   );
